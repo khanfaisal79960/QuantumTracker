@@ -105,7 +105,7 @@ Visit `http://127.0.0.1:5000`
 
 ![Home Page](./assets/screenshot_1.png)
 ![Coin Detail Page](./assets/screenshot_2.png)
-
+![Coin Detail Page](./assets/screenshot_3.png)
 ---
 
 ## 👨‍💻 Developer
