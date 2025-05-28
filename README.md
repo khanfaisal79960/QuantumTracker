@@ -10,7 +10,7 @@ The application features a dark, cool aesthetic with subtle animations and a fix
 
 ## 🌐 View Live Project
 
-👉 [Quantum Crypto Tracker Live](https://quantum-crypto.vercel.app)
+👉 [Quantum Crypto Tracker Live](https://quantum-tracker-nine.vercel.app/)
 
 ---
 
