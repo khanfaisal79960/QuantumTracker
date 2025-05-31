@@ -1,44 +1,49 @@
-# Quantum Crypto Tracker 🚀💹
+# 🚀 Quantum Crypto Tracker — Your Real-Time Window into Digital Assets
 
-**"Your real-time window into the digital asset world."**
+![Cover](./assets/cover_image.png)
 
-**Quantum Crypto Tracker** is a modern, visually appealing web application built with **Flask (Python)** and a responsive frontend using **HTML, CSS, and JavaScript**. It allows users to track real-time cryptocurrency prices, market capitalization, 24-hour price changes, and view detailed information, including historical price charts for individual cryptocurrencies.
-
-The application features a dark, cool aesthetic with subtle animations and a fixed footer to enhance user experience.
+**Quantum Crypto Tracker** is a visually engaging, real-time cryptocurrency tracker built with **Flask**, leveraging the **CoinGecko API** for up-to-the-minute crypto data. Designed with a sleek dark UI, animations, and glassmorphism effects, it offers both crypto enthusiasts and casual users an intuitive way to explore the crypto market.
 
 ---
 
-## 🌐 View Live Project
+## 🌐 Live Demo
 
-👉 [Quantum Crypto Tracker Live](https://quantum-tracker-nine.vercel.app/)
-
----
-
-## ✨ Features
-
-- **📊 Real-time Crypto Data:** Track current prices, market cap, and 24-hour price changes for the top 100 cryptocurrencies.
-- **🎨 Visually Appealing Design:** Dark theme, vibrant gradients, rounded corners, subtle shadows, and a “glassmorphism” effect.
-- **🌀 Engaging Animations:** Smooth transitions, hover effects, and loading spinners.
-- **🔍 Cryptocurrency Search:** Find any coin by its ID (e.g., `bitcoin`, `ethereum`).
-- **📈 Detailed Coin View:** Click a coin for a dedicated page with:
-  - Large logo, name, symbol, rank
-  - Price stats, supply info, all-time high
-  - Interactive 7-day price chart (Chart.js)
-  - Short description
-- **📱 Responsive Layout:** Fully responsive on mobile, tablet, and desktop.
-- **📌 Fixed Footer:** Persistent footer with developer links.
-- **❌ Custom 404 Page:** Stylish error page for bad routes.
+👉 [**View Live Demo**](https://quantum-tracker-nine.vercel.app/)
 
 ---
 
-## 🧰 API Used
+## 🔥 Features
 
-- **Source:** [CoinGecko API](https://www.coingecko.com/en/api)
-- **Endpoints:**
-  - `/api/v3/coins/markets`
-  - `/api/v3/coins/{id}`
-- **Authentication:** No API key required
-- **Rate Limits:** ~10–50 calls/min (unauthenticated)
+- 📊 **Real-Time Crypto Data**: Track current prices, market cap, and 24-hour changes for top 100 coins.
+- 🎨 **Modern UI Design**: Dark theme with glassmorphism, gradients, and soft shadows.
+- 🌀 **Animated Experience**: Smooth transitions and loading effects for an engaging UX.
+- 🔍 **Search Functionality**: Instantly find any cryptocurrency by its ID (e.g., `bitcoin`, `dogecoin`).
+- 📈 **Detailed Coin View**:
+  - Symbol, name, rank, price stats, supply info
+  - 7-day price chart using Chart.js
+  - Coin description and all-time highs
+- 📱 **Responsive Layout**: Mobile, tablet, and desktop optimized.
+- 📌 **Fixed Footer**: Persistent footer with contact links.
+- ❌ **Custom 404 Page**: Beautifully styled page for invalid routes.
+
+---
+
+## 🧠 How it Works
+
+- The homepage fetches data from CoinGecko `/coins/markets`.
+- Search allows users to jump to individual coin views via `/coins/{id}`.
+- Coin details page fetches and visualizes price and metadata using Chart.js.
+- Handles missing or invalid coin IDs gracefully with a custom 404 page.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Backend**: Flask (Python)
+- **Frontend**: HTML, CSS, JavaScript
+- **Charts**: Chart.js
+- **API**: CoinGecko (no auth required)
+- **Design**: Dark UI, responsive layout, animations
 
 ---
 
@@ -62,53 +67,30 @@ crypto_tracker/
 
 ---
 
-## 🧪 Setup & Installation
-
-1. **Clone the repository**:
+## 🚀 Getting Started
 
 ```bash
-git clone <this-repo-url>
+git clone <your-repo-url>
 cd crypto_tracker
-```
-
-2. **Create virtual environment**:
-
-```bash
 python -m venv venv
-```
-
-3. **Activate the environment**:
-
-- **Windows:** `.env\Scriptsctivate`  
-- **macOS/Linux:** `source venv/bin/activate`
-
-4. **Install dependencies**:
-
-```bash
+source venv/bin/activate  # or .\venv\Scripts\activate on Windows
 pip install -r requirements.txt
-```
-
-5. **Run the application**:
-
-```bash
 python app.py
 ```
 
-6. **Open in browser**:  
-Visit `http://127.0.0.1:5000`
+Visit: [http://127.0.0.1:5000](http://127.0.0.1:5000)
 
 ---
 
-## 🖼️ Screenshots
+## 📸 Screenshots
 
-> Replace with your actual UI images in the assets folder
+| Home Page | Coin Detail | Chart View |
+|-----------|-------------|------------|
+| ![Home](./assets/screenshot_1.png) | ![Detail](./assets/screenshot_2.png) | ![Chart](./assets/screenshot_3.png) |
 
-![Home Page](./assets/screenshot_1.png)
-![Coin Detail Page](./assets/screenshot_2.png)
-![Coin Detail Page](./assets/screenshot_3.png)
 ---
 
-## 👨‍💻 Developer
+## 🙋‍♂️ Author
 
 **Faisal Khan**
 
@@ -117,3 +99,5 @@ Visit `http://127.0.0.1:5000`
 - 🔗 [LinkedIn](https://www.linkedin.com/in/khanfaisal79960)
 - ✍️ [Medium](https://medium.com/@khanfaisal79960)
 - 📷 [Instagram](https://instagram.com/mr._perfect_1004)
+
+```
