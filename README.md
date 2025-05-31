@@ -8,7 +8,7 @@
 
 ## 🌐 Live Demo
 
-👉 [**View Live Demo**](https://quantum-tracker-nine.vercel.app/)
+👉 [**View Live Demo**](https://quantum-tracker-lyart.vercel.app/)
 
 ---
 
