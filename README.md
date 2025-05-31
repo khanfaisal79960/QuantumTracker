@@ -50,19 +50,28 @@
 ## 📁 Project Structure
 
 ```
-crypto_tracker/
+QuantumTracker/
 ├── app.py                  # Flask backend application
 ├── requirements.txt        # Python dependencies
+├── vercel.json             # Vercel deployment configuration
 ├── templates/
 │   ├── index.html          # Main cryptocurrency list page
 │   ├── coin_details.html   # Detailed coin information page
 │   └── 404.html            # Custom 404 error page
-└── static/
-    ├── css/
-    │   └── style.css       # Global styles and animations
-    └── js/
-        ├── script.js       # Logic for main page (fetching, search)
-        └── coin_details.js # Logic for coin detail charts
+├── static/
+│   ├── css/
+│   │   └── style.css       # Global styles and animations
+│   └── js/
+│       ├── script.js       # Logic for main page (fetching, search)
+│       └── coin_details.js # Logic for coin detail charts
+└── assets/
+    ├── cover_image.png     # Cover image for README and metadata
+    ├── screenshot_1.png    # Screenshot of homepage
+    ├── screenshot_2.png    # Screenshot of coin detail page
+    └── screenshot_3.png    # Screenshot of coin chart/extra view
+
+
+
 ```
 
 ---
@@ -70,8 +79,8 @@ crypto_tracker/
 ## 🚀 Getting Started
 
 ```bash
-git clone <your-repo-url>
-cd crypto_tracker
+git clone https://github.com/QuantumTracker.git
+cd QuantumTracker
 python -m venv venv
 source venv/bin/activate  # or .\venv\Scripts\activate on Windows
 pip install -r requirements.txt
