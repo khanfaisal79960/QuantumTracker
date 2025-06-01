@@ -79,7 +79,7 @@ QuantumTracker/
 ## 🚀 Getting Started
 
 ```bash
-git clone https://github.com/QuantumTracker.git
+git clone https://github.com/khanfaisal79960/QuantumTracker.git
 cd QuantumTracker
 python -m venv venv
 source venv/bin/activate  # or .\venv\Scripts\activate on Windows
